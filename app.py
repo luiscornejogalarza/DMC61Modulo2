@@ -62,3 +62,36 @@ if opcion == "1. Home":
         
         st.subheader("🛠️ Tecnologías Utilizadas")
         st.write("Python, Pandas, NumPy, Matplotlib, Seaborn y Streamlit.")
+
+# Carga del Dataset
+
+elif opcion == "2. Carga del Dataset":
+    st.title("📂 Carga y Validación de Datos")
+    
+    # Widget obligatorio para cargar el archivo CSV
+    archivo_subido = st.file_uploader("Sube el archivo Teen_Mental_Health_Dataset.csv", type=["csv"])
+    
+    if archivo_subido is not None:
+        try:
+            # Lectura del archivo
+            df = pd.read_csv(archivo_subido)
+            
+            # GUARDADO EN EL ESTADO DE LA SESIÓN (Crucial)
+            st.session_state['dataset'] = df
+            
+            st.success("✅ Archivo cargado y validado correctamente.")
+            
+            # Division en columnas para mostrar la info solicitada
+            col_prev, col_dim = st.columns([3, 1])
+            with col_prev:
+                st.subheader("Vista Previa (Head)")
+                st.dataframe(df.head())
+            with col_dim:
+                st.subheader("Dimensiones")
+                st.write(f"**Filas:** {df.shape[0]}")
+                st.write(f"**Columnas:** {df.shape[1]}")
+                
+        except Exception as e:
+            st.error(f"Error al procesar el archivo: {e}")
+    else:
+        st.warning("⚠️ Esperando la carga del archivo CSV para habilitar el análisis.")
