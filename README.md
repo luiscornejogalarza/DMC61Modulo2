@@ -22,3 +22,4 @@ El aplicativo permite explorar, limpiar, transformar y visualizar datos para ide
 
 # Capturas de la Aplicacion
 
+https://github.com/luiscornejogalarza/DMC61Modulo2/blob/bb67b35513bdb89a44e3f176d53606255427e859/home.png
