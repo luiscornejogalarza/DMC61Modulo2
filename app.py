@@ -235,5 +235,5 @@ elif opcion == "3. Análisis EDA":
             st.pyplot(fig)
             
             st.write("### Insights Principales para Toma de Decisiones")
-            st.write("- **Higiene del Sueño:** Se confirma visualmente que a mayor tiempo de pantalla antes de dormir, existe una tendencia a menores horas efectivas de sueño.")
-            st.write("- **Métricas Acopladas:** Los niveles de estrés y ansiedad muestran una co-ocurrencia, sugiriendo que intervenciones preventivas deberían abordar ambos frentes.")
+            st.write("- **Higiene del Sueño:** Se confirma que a mayor tiempo de pantalla antes de dormir, hay una tendencia a menores horas efectivas de sueño.")
+            st.write("- **Métricas Acopladas:** Los niveles de estrés y ansiedad muestran, sugieren que deberia haber intervenciones preventivas en ambos casos.")
