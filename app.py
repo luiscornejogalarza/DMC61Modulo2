@@ -33,3 +33,9 @@ class DataAnalyzer:
         missing = self.df.isnull().sum()
         pct = (missing / len(self.df)) * 100
         return pd.DataFrame({'Valores Nulos': missing, 'Porcentaje (%)': pct})
+
+# SIde Bar
+
+st.sidebar.title("Módulos")
+opcion = st.sidebar.radio("Seleccione un Módulo:", 
+                          ["1. Home", "2. Carga del Dataset", "3. Análisis EDA", "4. Conclusiones"])
