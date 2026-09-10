@@ -164,12 +164,12 @@ elif opcion == "3. Análisis EDA":
             col1, col2 = st.columns(2)
             with col1:
                 fig1, ax1 = plt.subplots()
-                sns.countplot(data=df, x='genero', palette='Set2', ax=ax1)
+                sns.countplot(data=df, x='gender', palette='Set2', ax=ax1)
                 ax1.set_title("Proporción por Género")
                 st.pyplot(fig1)
             with col2:
                 fig2, ax2 = plt.subplots()
-                sns.countplot(data=df, x='plataformas', palette='Set3', ax=ax2)
+                sns.countplot(data=df, x='platform_usage', palette='Set3', ax=ax2)
                 ax2.set_title("Uso de Plataformas")
                 st.pyplot(fig2)
                 
