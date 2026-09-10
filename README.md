@@ -22,4 +22,4 @@ El aplicativo permite explorar, limpiar, transformar y visualizar datos para ide
 
 # Capturas de la Aplicacion
 
-!(home.png)
+![Pantalla Principal - Home](home.png)
