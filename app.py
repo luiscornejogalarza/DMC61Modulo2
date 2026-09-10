@@ -146,7 +146,7 @@ elif opcion == "3. Análisis EDA":
         with tabs[3]:
             st.header("Ítem 4: Análisis de valores faltantes")
             st.dataframe(analyzer.get_missing_summary())
-            st.success("Tal como indica el contexto del caso, el dataset tiene una calidad del 100% sin valores nulos. Se conserva la estructura original sin necesidad de aplicar técnicas de imputación de datos.")
+            st.success("Tal como indica el contexto del caso, el dataset tiene una calidad del 100% sin valores nulos, no se necesita aplicar técnicas de procesamiento de datos.")
             
         # Ítem 5: Distribución de variables numéricas
         with tabs[4]:
