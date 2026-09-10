@@ -23,3 +23,4 @@ El aplicativo permite explorar, limpiar, transformar y visualizar datos para ide
 # Capturas de la Aplicacion
 
 ![Pantalla Principal - Home](home.png)
+![Item 10: Resumen - EDA](tablaresumen.png)
