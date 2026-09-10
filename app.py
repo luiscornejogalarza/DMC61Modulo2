@@ -237,3 +237,36 @@ elif opcion == "3. Análisis EDA":
             st.write("### Insights Principales para Toma de Decisiones")
             st.write("- **Higiene del Sueño:** Se confirma que a mayor tiempo de pantalla antes de dormir, hay una tendencia a menores horas efectivas de sueño.")
             st.write("- **Métricas Acopladas:** Los niveles de estrés y ansiedad muestran, sugieren que deberia haber intervenciones preventivas en ambos casos.")
+
+# Conclusiones
+
+elif opcion == "4. Conclusiones":
+    st.title("🎯 Conclusiones Finales y Toma de Decisiones")
+    st.markdown("---")
+    
+    st.write("En base al Análisis Exploratorio de Datos (EDA) realizado sobre la muestra de 1,200 adolescentes, y manteniendo un enfoque puramente analítico y educativo, se presentan las siguientes 5 conclusiones orientadas a la acción:")
+    
+    # Conclusión 1
+    st.markdown("### 1. El impacto disruptivo de las pantallas antes de dormir")
+    st.write("**Evidencia visual (Ítems 7 y 10):** Se observa una correlación y una tendencia clara donde el aumento en el tiempo de pantalla antes de dormir (`screen_time_before_sleep`) coincide con una reducción en las horas de sueño efectivas (`sleep_hours`).")
+    st.info("💡 **Toma de decisión:** Desarrollar campañas educativas en las escuelas centradas en la 'higiene digital' nocturna, recomendando una desconexión tecnológica al menos una hora antes de dormir para mejorar la calidad del descanso.")
+    
+    # Conclusión 2
+    st.markdown("### 2. Co-ocurrencia de métricas de tensión psicológica")
+    st.write("**Evidencia estadística (Ítem 9 y 10):** El análisis dinámico y la matriz de correlación muestran que los niveles de estrés (`stress_level`) y ansiedad (`anxiety_level`) tienden a presentar comportamientos acoplados en la distribución.")
+    st.success("💡 **Toma de decisión:** Los programas de bienestar estudiantil no deben tratar la ansiedad y el estrés como problemas aislados. Se requiere implementar intervenciones integrales de manejo emocional que aborden ambos frentes de manera conjunta.")
+    
+    # Conclusión 3
+    st.markdown("### 3. La actividad física como posible factor protector")
+    st.write("**Evidencia visual (Ítem 7):** Los diagramas de caja (boxplots) exponen ligeras variaciones en la distribución central de las horas de actividad física (`physical_activity`) al contrastarlas con la presencia o ausencia de la etiqueta de depresión.")
+    st.warning("💡 **Toma de decisión:** Promover e incrementar las horas de actividad física extracurriculares dentro de las instituciones como un mecanismo natural para mitigar la tensión psicológica en la población adolescente.")
+    
+    # Conclusión 4
+    st.markdown("### 4. Patrones de interacción diferenciados por plataforma")
+    st.write("**Evidencia visual (Ítem 8):** Al cruzar el uso de plataforma (`platform_usage`) con el nivel de interacción social y la etiqueta binaria del dataset, se notan distribuciones distintas entre los usuarios que prefieren TikTok frente a Instagram.")
+    st.error("💡 **Toma de decisión:** Adaptar los mensajes de concientización digital a la dinámica específica de cada red social, evitando enfoques genéricos y atacando el formato particular (ej. videos cortos vs. imágenes) que consumen los jóvenes.")
+    
+    # Conclusión 5
+    st.markdown("### 5. Calidad estructural para futuros modelos de datos")
+    st.write("**Evidencia estadística (Ítems 1 y 4):** La validación inicial confirmó la calidad del 100% de los registros, revelando una ausencia total de valores nulos o duplicados en las 13 columnas analizadas.")
+    st.info("💡 **Toma de decisión:** Dado que la arquitectura de este conjunto de datos es robusta, se recomienda establecer este formato de encuesta como el estándar oficial para futuras recolecciones, garantizando la comparabilidad y escalabilidad a largo plazo.")
