@@ -151,10 +151,10 @@ elif opcion == "3. Análisis EDA":
         # Ítem 5: Distribución de variables numéricas
         with tabs[4]:
             st.header("Ítem 5: Distribución de métricas de bienestar")
-            st.write("Comparación de escalas (1-10). *Nota: Fines educativos, no constituye diagnóstico clínico*.")
+            st.write("Comparación de escalas (1-10). Nota: No constituye diagnóstico clínico.")
             fig, ax = plt.subplots(1, 3, figsize=(15, 4))
-            sns.histplot(df['stress_level'], kde=True, ax=ax[0], color='crimson').set_title('Nivel de Estrés')
-            sns.histplot(df['anxiety_level'], kde=True, ax=ax[1], color='darkorange').set_title('Nivel de Ansiedad')
+            sns.histplot(df['stress_level'], kde=True, ax=ax[0], color='red').set_title('Nivel de Estrés')
+            sns.histplot(df['anxiety_level'], kde=True, ax=ax[1], color='orange').set_title('Nivel de Ansiedad')
             sns.histplot(df['addiction_level'], kde=True, ax=ax[2], color='indigo').set_title('Nivel de Dependencia')
             st.pyplot(fig)
             
