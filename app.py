@@ -159,7 +159,7 @@ elif opcion == "3. Análisis EDA":
             st.pyplot(fig)
             
         # Ítem 6: Análisis de variables categóricas
-       with tabs[5]:
+        with tabs[5]:
             st.header("Ítem 6: Análisis de variables categóricas")
             col1, col2 = st.columns(2)
             with col1:
