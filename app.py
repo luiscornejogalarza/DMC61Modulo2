@@ -244,7 +244,7 @@ elif opcion == "4. Conclusiones":
     st.title("🎯 Conclusiones Finales y Toma de Decisiones")
     st.markdown("---")
     
-    st.write("En base al Análisis Exploratorio de Datos (EDA) realizado sobre la muestra de 1,200 adolescentes, y manteniendo un enfoque puramente analítico y educativo, se presentan las siguientes 5 conclusiones orientadas a la acción:")
+    st.write("En base al Análisis Exploratorio de Datos (EDA) realizado sobre la muestra de 1200 adolescentes, y manteniendo un enfoque puramente analítico y educativo, se presentan las siguientes 5 conclusiones orientadas a la acción:")
     
     # Conclusión 1
     st.markdown("### 1. El impacto de las pantallas antes de dormir")
