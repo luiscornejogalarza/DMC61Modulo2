@@ -37,5 +37,5 @@ class DataAnalyzer:
 # SIde Bar
 
 st.sidebar.title("Módulos")
-opcion = st.sidebar.radio("Seleccione un Módulo:", 
+opcion = st.sidebar.selectbox("Seleccione un Módulo:", 
                           ["1. Home", "2. Carga del Dataset", "3. Análisis EDA", "4. Conclusiones"])
