@@ -7,7 +7,7 @@ import seaborn as sns
 import io
 
 # Titulo
-st.set_page_config(page_title="EDA - Salud Mental Adolescente", layout="wide")
+st.set_page_config(page_title="Primer Proyecto de Portafolio Profesional - EDA - Salud Mental Adolescente", layout="wide")
 
 #Progrmacion orientada a objetos
 
