@@ -252,7 +252,7 @@ elif opcion == "4. Conclusiones":
     st.info("💡 **Toma de decisión:** Desarrollar campañas centradas en la 'higiene digital' nocturna, recomendando una desconexión tecnológica al menos una hora antes de dormir para mejorar la calidad del descanso.")
     
     # Conclusión 2
-    st.markdown("### 3. Impacto indirecto en el rendimiento académico")
+    st.markdown("### 2. Impacto indirecto en el rendimiento académico")
     st.write("**Evidencia visual:** Variaciones en el EDA muestran una conexión indirecta entre `sleep_hours` y `academic_performance`.")
     st.info("💡 **Decisión:** Replantear horarios de entrega de asignaciones para evitar que los estudiantes sacrifiquen horas vitales de sueño.")
         
@@ -267,6 +267,6 @@ elif opcion == "4. Conclusiones":
     st.error("💡 **Toma de decisión:** Adaptar los mensajes de concientización digital a la dinámica específica de cada red social, evitando enfoques genéricos y atacando el formato particular (ej. videos cortos vs. imágenes) que consumen los jóvenes.")
     
     # Conclusión 5
-    st.markdown("### 9. Perspectiva de género en la presión")
+    st.markdown("### 5. Perspectiva de género en la presión")
     st.write("**Evidencia visual:** Ligeras variaciones en la distribución central del estrés al segmentar el análisis por la variable `gender`.")
     st.warning("💡 **Decisión:** Implementar evaluaciones periódicas de clima estudiantil que permitan abordajes focalizados y seguros.")
